@@ -1,0 +1,40 @@
+.collections {
+  padding-top: 277px;
+  font-family: $font-Inter;
+  color: $color-text;
+  &-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    position: relative;
+  }
+
+  &-title::before {
+    content: "";
+    position: absolute;
+    width: 146px;
+    height: 6px;
+    background-image: linear-gradient(to right, rgb(112, 108, 108), white);
+    border: none;
+    left: 22%;
+    top: 50%;
+    border-radius: 0 15px 15px 15px;
+  }
+  &-title::after {
+    content: "";
+    position: absolute;
+    width: 146px;
+    height: 6px;
+    background-image: linear-gradient(to right, white, rgb(112, 108, 108));
+    border: none;
+    right: 22%;
+    top: 50%;
+    border-radius: 15px 15px 15px 0px;
+  }
+  &-group {
+    &-tab {
+      margin-top: 50px;
+    }
+  }
+}

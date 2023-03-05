@@ -1,0 +1,25 @@
+.header {
+  background: linear-gradient(
+    180deg,
+    rgba(30, 30, 30, 0) 0%,
+    rgba(30, 30, 30, 0.00126534) 0%,
+    rgba(30, 30, 30, 0.0643842) 0%,
+    rgba(30, 30, 30, 0.11861) 24.92%,
+    rgba(30, 30, 30, 0.170742) 61.77%,
+    rgba(30, 30, 30, 0.216) 100%
+  );
+  &-logo {
+    cursor: pointer;
+  }
+  &-main {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-menu {
+    align-items: center;
+    display: flex;
+    gap: 0 60px;
+  }
+}

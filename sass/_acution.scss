@@ -1,0 +1,54 @@
+.acution {
+  font-family: $font-Poppins;
+
+  &-main {
+    position: relative;
+  }
+  &-group {
+    justify-content: space-evenly;
+    display: flex;
+    gap: 30px;
+    margin: 24px 30px;
+  }
+  &-title {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 36px;
+    color: $color-text;
+    text-align: center;
+  }
+  &-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $color-text;
+    margin: auto;
+    text-align: center;
+    font-family: $font-Inter;
+    width: 391px;
+  }
+
+  &-icons {
+    color: white;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+
+  &-prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+  }
+
+  &-next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
+
+  &-icons:hover {
+    background: white !important;
+    color: black;
+  }
+}

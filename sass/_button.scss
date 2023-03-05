@@ -1,0 +1,86 @@
+.btn {
+  &-header {
+    gap: 12px;
+    display: flex;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(51, 47, 208);
+    justify-content: center;
+    align-items: center;
+    color: $color-text;
+    font-family: $font-Inter;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  &-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+  }
+  &-primary {
+    width: 250px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    background: $btn-primary;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: $color-text;
+    font-family: $font-Inter;
+    cursor: pointer;
+    transition: all 0.5s linear ease-out;
+  }
+  &-primary:hover {
+    box-shadow: 0 0 10px 5px;
+    background: linear-gradient(
+      93.07deg,
+      #00adf2 4.14%,
+      #219bf2 31.35%,
+      #dd37f5 73.51%,
+      rgba(241, 42, 245, 0.98) 95.21%
+    );
+  }
+
+  &-pink,
+  &-blue {
+    width: 150px;
+    height: 60px;
+    border: none !important;
+    border-radius: 25px;
+    cursor: pointer;
+    color: $color-text;
+    font-size: 30px;
+    font-family: $font-Inter;
+    line-height: 36px;
+    font-weight: 400;
+  }
+  &-pink {
+    background-color: $btn-pink;
+  }
+  &-blue {
+    margin-left: 52px;
+    background-color: $btn-blue;
+  }
+}
+
+.button-explore {
+  display: block;
+  width: 140px;
+  height: 50px;
+  color: #15bffd;
+  border: 1px solid #15bffd;
+  background: transparent;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 107px !important;
+}
+
+.button-explore:hover {
+  background: linear-gradient(#24293f 0 0) padding-box,
+    linear-gradient(to bottom right, #15bffd, #9c37fd) border-box;
+  border: 2px solid transparent;
+}

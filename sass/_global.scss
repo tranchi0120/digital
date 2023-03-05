@@ -1,0 +1,58 @@
+$font-jura: "Jura", sans-serif;
+$font-Inter: "Inter", sans-serif;
+$font-Poppins: "Poppins", sans-serif;
+$font-kiteone: "Kite One", sans-serif;
+$bgr_btn: linear-gradient(to right, #f12af5, #dd37f5, #219bf2, #00adf2);
+$bgrall: #191e35;
+
+$color-text: #ffffff;
+$btn-blue: #332fd0;
+$btn-pink: #f52af5;
+$btn-primary: linear-gradient(
+  93.07deg,
+  rgba(241, 42, 245, 0.98) 4.14%,
+  #dd37f5 31.35%,
+  #219bf2 73.51%,
+  #00adf2 95.21%
+);
+
+$border-box: linear-gradient(to right, #15bffd, #9c37fd);
+
+.wrapper {
+  max-width: 1428px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: $bgrall;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none !important;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+.container {
+  max-width: 2000px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

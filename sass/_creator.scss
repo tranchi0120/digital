@@ -1,0 +1,77 @@
+.creator {
+  margin-top: 105px;
+  font-family: $font-Inter;
+  color: $color-text;
+
+  &-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+  }
+  &-title {
+    font-size: 50px;
+    line-height: 26px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  &-intro {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: auto;
+    width: 391px;
+  }
+
+  &-group {
+    margin-top: 50px;
+  }
+
+  &-info {
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 384px;
+    position: relative;
+    background: linear-gradient(#24293f 0 0) padding-box,
+      linear-gradient(to bottom right, #15bffd, #9c37fd) border-box;
+    border: 2px solid transparent;
+  }
+
+  &-namecoin {
+    margin-left: -90px;
+    text-align: center;
+  }
+
+  &-name,
+  &-coin {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &-follow {
+    font-size: 20px;
+    line-height: 30px;
+    color: #15bffd;
+    position: relative;
+  }
+
+  &-follow::before {
+    content: "";
+    background: #15bffd;
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    transition: transform 1s ease;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  &-follow:hover::before {
+    color: #075674;
+    transform: scaleX(1);
+  }
+}

@@ -1,0 +1,85 @@
+.box {
+  font-family: $font-Poppins;
+  position: relative;
+  max-width: 385px;
+
+  &-top {
+    position: absolute;
+    top: 25px;
+    left: 20.45px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &-price {
+    &-currentbid {
+      display: block;
+      color: #000000;
+      font-size: 14px;
+      font-size: 20px;
+    }
+  }
+  &-coin {
+    color: #15bffd;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+
+  &-placebid {
+    position: absolute;
+    background: #15bffd;
+    width: 111px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -225px;
+  }
+  &-profile {
+    position: absolute;
+    bottom: 26px;
+    left: 20px;
+
+    &-color {
+      display: block;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      font-family: $font-Poppins;
+      color: #000000;
+    }
+    &-name {
+      color: #789eac;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px;
+      font-family: $font-Poppins;
+    }
+  }
+  &-icons {
+    position: absolute;
+    bottom: 20px;
+    right: 102px;
+  }
+  &-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+  }
+  &-icon:nth-child(n + 1) {
+    margin-left: -20px;
+  }
+  &-avtname {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+  }
+}
