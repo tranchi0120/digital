@@ -74,4 +74,12 @@
     color: #075674;
     transform: scaleX(1);
   }
+
+  @media screen and (min-width: 1024px) and (max-width: 1335px) {
+    &-group {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 50px;
+    }
+  }
 }

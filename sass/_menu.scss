@@ -32,4 +32,11 @@
     transform: scaleX(1);
     // transform-origin: left;
   }
+  @media screen and (max-width: 1335px) {
+    flex-direction: column;
+    padding: 0;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+  }
 }

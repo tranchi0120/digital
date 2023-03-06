@@ -24,3 +24,23 @@ document.querySelector('.acution-next').onclick = function () {
     document.querySelector('.acution-group ').prepend(lists[lists.length - 1]);
 };
 
+
+
+
+// OpenMenu and CloseMenu
+const OpenMenu = document.querySelector('.openmenu')
+const CloseMenu = document.querySelector('.closemenu')
+const headermenu = document.querySelector('.header-menu');
+
+
+OpenMenu.addEventListener('click', function () {
+    headermenu.classList.add('showmenu')
+    CloseMenu.style.display = "block"
+})
+
+CloseMenu.addEventListener('click', function () {
+    headermenu.classList.remove('showmenu')
+    CloseMenu.style.display = "none"
+})
+
+

@@ -32,4 +32,9 @@
       font-family: $font-Inter;
     }
   }
+  @media screen and (min-width: 1024px) and (max-width: 1335px) {
+    &-main {
+      gap: 0px;
+    }
+  }
 }

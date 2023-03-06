@@ -9,6 +9,10 @@
     display: flex;
     gap: 30px;
     margin: 24px 30px;
+    overflow: scroll;
+  }
+  &-group::-webkit-scrollbar {
+    display: none;
   }
   &-title {
     font-size: 50px;

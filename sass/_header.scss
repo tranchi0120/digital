@@ -22,4 +22,55 @@
     display: flex;
     gap: 0 60px;
   }
+  &-toggle {
+    color: white !important;
+    display: none;
+  }
+
+  @media screen and (max-width: 1335px) {
+    &-menu {
+      display: none;
+    }
+    &-toggle {
+      display: block;
+    }
+
+    &-menu {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background: #191e35;
+      z-index: 1111111111111111111;
+      gap: 50px;
+      display: flex;
+      flex-direction: column;
+      padding-top: 70px;
+      color: black;
+      transform: translateY(-100%);
+      transition: all 0.5s ease-in-out;
+    }
+    .showmenu {
+      transform: translateY(0);
+    }
+
+    &-icons {
+      display: block;
+    }
+    .closemenu {
+      top: 30px;
+      position: fixed;
+      z-index: 2222222222222222;
+      right: 50px;
+      font-size: 40px;
+      display: none;
+    }
+    .openmenu {
+      font-size: 30px;
+      margin-right: 40px;
+    }
+  }
 }
